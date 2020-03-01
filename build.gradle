@@ -1,4 +1,4 @@
-version = "0.1.7"
+version = "0.1.7-gradle"
 group = "org.lwjglx"
 
 apply plugin: "java"

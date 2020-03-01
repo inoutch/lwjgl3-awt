@@ -1,0 +1,149 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.lwjglx",
+    "module": "lwjgl3-awt",
+    "version": "0.1.7-gradle",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "eez6k7uu65cpffq66ucmsu4goe"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jawt",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-vulkan",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lwjgl3-awt-0.1.7-gradle.jar",
+          "url": "lwjgl3-awt-0.1.7-gradle.jar",
+          "size": 41956,
+          "sha512": "6a26aec87e1047b895d50717dc38fdded7c2e5167ee2d92187e40bd5a7cb0e0db567d6a8bc7be0624ac92c18c7844eea4d3e75c7791f8f768488314278ec95b6",
+          "sha256": "2020b03014a51a99fa5171e730891bd348d0f1b9a3219657b4ded85d5285a58d",
+          "sha1": "4b0bc12570ce7c53e14744057fa5e486b9955353",
+          "md5": "a6bd7de3c1b93ec1513e75e8be9c7005"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-glfw",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-stb",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-jawt",
+          "version": {
+            "requires": "3.2.3"
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-vulkan",
+          "version": {
+            "requires": "3.2.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "lwjgl3-awt-0.1.7-gradle.jar",
+          "url": "lwjgl3-awt-0.1.7-gradle.jar",
+          "size": 41956,
+          "sha512": "6a26aec87e1047b895d50717dc38fdded7c2e5167ee2d92187e40bd5a7cb0e0db567d6a8bc7be0624ac92c18c7844eea4d3e75c7791f8f768488314278ec95b6",
+          "sha256": "2020b03014a51a99fa5171e730891bd348d0f1b9a3219657b4ded85d5285a58d",
+          "sha1": "4b0bc12570ce7c53e14744057fa5e486b9955353",
+          "md5": "a6bd7de3c1b93ec1513e75e8be9c7005"
+        }
+      ]
+    }
+  ]
+}
